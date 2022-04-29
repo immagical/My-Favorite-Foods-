@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(coral 0%, lightpink 50%, antiquewhite 100%);
+    text-align: center;
+}
+h1 { 
+text-decoration: underline;
+font-family: cursive;
+margin-top: 50px; 
+}
+#food img {
+   width: 400px;
+   height: 400px;
+   border: 10px ridge darkcyan;  
+}
+h3 {
+    font-family: cursive;
+}
+.menu {
+    position: fixed; 
+    top: 0; 
+    margin-top: 0;
+    margin-left: -10;
+    z-index:10; 
+    width: 100%;
+    background-color: whitesmoke;
+    height: 30px; 
+  }
+  .items {
+    margin: 25px; 
+    /* float: left; */
+    font-family: 'Palette Mosaic', cursive;
+    font-size: 10px;
+    cursor: pointer;
+    padding: 5px; 
+    display: inline;
+}
+.items:hover {
+    background-color: yellowgreen; 
+    font-size: 15px; 
+    font-family : cursive; 
+}
